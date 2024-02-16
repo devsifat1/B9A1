@@ -27,7 +27,12 @@ p {
     /* 166.667% */
 }
 
+.red {
 
+    color: #F00;
+
+
+}
 
 header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -63,6 +68,11 @@ header {
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+
+.categories-main {
+    margin: 0 auto;
 }
 
 .categories-text * {
@@ -104,7 +114,6 @@ header {
     height: 500px;
     margin: 30px auto;
     margin: 45px auto 105px auto;
-    ;
 
 }
 
@@ -145,7 +154,7 @@ header {
     height: 600px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     height: 600px;
-    margin: 45px auto 105px auto;
+    margin: 45px auto 45px auto;
     border-radius: 16px;
     display: flex;
     align-items: center;
@@ -154,7 +163,7 @@ header {
 
 }
 
-.place-text h2{
+.place-text h2 {
 
     color: #070211;
     font-family: Inter;
@@ -174,8 +183,279 @@ header {
     background: #F00;
     color: #FFF;
     border: none;
+
+}
+
+.btn-align {
     text-align: center;
-   
+}
 
 
+.coming-soon-main {
+    display: flex;
+    margin: 0 auto 105px auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.coming-soon {
+    width: 100%;
+}
+
+.coming-soon,
+.holidays-text,
+.portfolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+
+.coming-soon h2 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.coming-soon h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.coming-soon,
+.portfolio-text,
+h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.coming-soon p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.images {
+    border-radius: 100%;
+    border: 15px solid #F00;
+    padding: 40px;
+
+
+}
+
+.holidays-main {
+    margin: 0 auto 105px auto;
+}
+
+
+.holidays-text h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.holidays-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.holidays-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    /* 160% */
+}
+
+.holidays-img {
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.holidays-img img {
+    width: 100%;
+
+}
+
+.holidays-img-1 {
+    z-index: 1;
+}
+
+.holidays-img-2 {
+    margin-top: 50px;
+    margin-right: -100px;
+    z-index: 1;
+}
+
+.holidays-img-banner img {
+    width: 100%;
+
+}
+
+.holidays-img-banner {
+    margin-top: -220px;
+
+}
+
+.portfolio-text,
+h2 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.portfolio-main {
+    margin: 0 auto 120px auto;
+
+}
+
+.portfolio-text * {
+    margin-top: 10px;
+    width: 896px;
+
+}
+
+.portfolio {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.newsletter-main {
+    margin: 0 auto 105px auto;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+
+
+}
+
+.categories-text * {
+    text-align: center;
+}
+
+
+.newsletter-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.newsletter-text p {
+    text-align: center;
+    color: #070211;
+}
+
+.newsletter-icon {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+
+.newsletter-content {
+    width: 896px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+form input {
+    width: 648px;
+    height: 72px;
+    padding: 0 25px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    outline: wheat;
+}
+
+
+.btn-subscribe {
+
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    border: none;
+
+}
+
+footer {
+    background: #070211;
+    padding: 80px 0;
+
+}
+
+.footer-main {
+    max-width: 1320px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.icon img{
+    width: 70%;
 }
