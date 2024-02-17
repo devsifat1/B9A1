@@ -269,7 +269,10 @@ h5 {
 .holidays-main {
     margin: 0 auto 105px auto;
 }
-
+.holidays-text{
+    width: 60%;
+    margin: 0 auto;
+}
 
 .holidays-text h5 {
     color: #070211;
@@ -361,6 +364,19 @@ h2 {
     margin-top: 20px;
 }
 
+
+.hover-effects  img {
+    transition: 1s ease;
+    }
+    
+    .hover-effects  img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+
+
 .portfolio img {
     width: 100%;
 }
@@ -451,17 +467,23 @@ footer {
     justify-content: space-between;
 }
 
-.icon {
+.social-icon {
     display: flex;
     justify-content: center;
     padding: 50px 0;
     margin: 50px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);    ;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    ;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 
 
 }
 
-.icon img {
+.social-icon img {
     width: 70%;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
 }
